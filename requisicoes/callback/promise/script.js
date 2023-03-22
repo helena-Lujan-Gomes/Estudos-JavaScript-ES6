@@ -5,6 +5,7 @@ function clicou() {
   fetch("https://jsonplaceholder.typicode.com/posts")
 
    .then((response) => {
+    console.log(`Status: ${response.status}`);
       return response.json();
     })
     .then((json) => {
