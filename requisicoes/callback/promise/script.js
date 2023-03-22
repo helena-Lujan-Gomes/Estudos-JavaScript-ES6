@@ -18,7 +18,6 @@ function clicou() {
     })
     .finally(() => {
       alert("Opa, acabou tudo")
-
     })
 }
 
